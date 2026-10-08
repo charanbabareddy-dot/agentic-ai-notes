@@ -44,4 +44,4 @@ The interview questions in each section are **commonly asked** at junior AI / Py
 
 ---
 
-**Author:** D. Charan Baba Reddy · _(add LinkedIn link)_
+**Author:** D. Charan Baba Reddy · _(www.linkedin.com/in/charan-baba-reddy-4643842b1)_
