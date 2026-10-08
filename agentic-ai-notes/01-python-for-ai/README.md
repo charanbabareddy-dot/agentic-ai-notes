@@ -1,6 +1,6 @@
 # 01 · Python for AI
 
-The Python I use as a foundation for building AI agents. The goal is not to know every corner of Python — it is to **read, write, modify and debug** the Python that AI systems are built with.
+The Python I use as a foundation for building AI agents. The goal is not to know every corner of Python it is to **read, write, modify and debug** the Python that AI systems are built with.
 
 [← Back to all topics](../README.md)
 
@@ -177,7 +177,7 @@ else:
 Refund ≤ ₹1,000 → auto-approve; above that → send to a human.
 
 **Where it's used**
-**Guardrails and business rules** in agents are often plain if/else — deterministic checks around a probabilistic model.
+**Guardrails and business rules** in agents are often plain if/else  deterministic checks around a probabilistic model.
 
 **Common mistake**
 Using `=` (assign) instead of `==` (compare), or forgetting the indentation.
@@ -190,7 +190,7 @@ Using `=` (assign) instead of `==` (compare), or forgetting the indentation.
 5. **Q:** Difference between `==` and `is`? **A:** `==` compares values; `is` checks if two names point to the same object (use `is` for `None`).
 
 **In one line**
-Conditions let code choose a path — the basis of every rule and guardrail.
+Conditions let code choose a path the basis of every rule and guardrail.
 
 ---
 
@@ -268,7 +268,7 @@ Printing instead of returning. `print()` shows a value; `return` hands it back s
 5. **Q:** What is variable scope? **A:** Where a variable is visible. Variables created inside a function are local to it.
 
 **In one line**
-Functions package logic for reuse — and in agents, functions become tools.
+Functions package logic for reuse and in agents, functions become tools.
 
 ---
 
@@ -462,7 +462,7 @@ finally:
 ```
 
 **Example**
-An API call fails because the network drops — catch it and retry instead of crashing.
+An API call fails because the network drops catch it and retry instead of crashing.
 
 **Where it's used**
 Agents call external APIs and tools that **will** fail sometimes. Error handling + retry limits keep them running.
@@ -472,7 +472,7 @@ A bare `except:` that hides every error, including bugs. Catch specific errors.
 
 **Interview questions**
 1. **Q:** What is the purpose of `try/except`? **A:** To handle errors gracefully without crashing.
-2. **Q:** When does `finally` run? **A:** Always — whether an error happened or not.
+2. **Q:** When does `finally` run? **A:** Always whether an error happened or not.
 3. **Q:** When does `else` run in a try block? **A:** Only if no exception occurred.
 4. **Q:** How do you raise your own error? **A:** `raise ValueError("Budget must be positive")`.
 5. **Q:** Why avoid a bare `except:`? **A:** It catches everything, hiding real bugs and making debugging harder.
@@ -494,7 +494,7 @@ flowchart LR
     classDef box fill:#E3EAF5,stroke:#1E3A8A,color:#0B1F4D
     classDef hi fill:#F5A524,stroke:#0B1F4D,color:#0B1F4D
 ```
-- **Read the traceback from the bottom** — the last line is the error type and message.
+- **Read the traceback from the bottom** the last line is the error type and message.
 - Print or inspect variable values at each step.
 - Change **one thing at a time** and test again.
 
@@ -502,7 +502,7 @@ flowchart LR
 `KeyError: 'email'` → the customer dictionary has no `email` key → use `.get("email")` or check the data source.
 
 **Where it's used**
-Reviewing AI-generated code. Copilot and chat tools write plausible code that can still be wrong — debugging is how I verify it.
+Reviewing AI-generated code. Copilot and chat tools write plausible code that can still be wrong debugging is how I verify it.
 
 **Common mistake**
 Rewriting everything randomly instead of finding the one real cause.
@@ -540,7 +540,7 @@ print(diwali.cpc())               # 5.0
 ```
 
 **Example**
-One `Campaign` blueprint, many campaign objects — each with its own spend and clicks.
+One `Campaign` blueprint, many campaign objects each with its own spend and clicks.
 
 **Where it's used**
 **LangChain, CrewAI and AutoGen are built on classes.** `Agent(...)`, `Task(...)` and `Crew(...)` all create objects.
@@ -550,7 +550,7 @@ Forgetting `self` as the first parameter of a method.
 
 **Interview questions**
 1. **Q:** Difference between a class and an object? **A:** A class is the blueprint; an object is an instance created from it.
-2. **Q:** What is `__init__`? **A:** The constructor — it runs when an object is created and sets its attributes.
+2. **Q:** What is `__init__`? **A:** The constructor it runs when an object is created and sets its attributes.
 3. **Q:** What is `self`? **A:** A reference to the current object, used to access its attributes and methods.
 4. **Q:** Difference between an attribute and a method? **A:** Attribute = data; method = a function that belongs to the class.
 5. **Q:** Name the four pillars of OOP. **A:** Encapsulation, abstraction, inheritance, polymorphism.
