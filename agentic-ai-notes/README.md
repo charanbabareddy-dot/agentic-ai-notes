@@ -1,6 +1,6 @@
 # Agentic AI Notes
 
-My personal notes while learning **AI engineering and agentic AI** — from Python foundations to LLMs, the GenAI tech stack, prompt engineering, agent frameworks and RAG.
+My personal notes while learning **AI engineering and agentic AI** from Python foundations to LLMs, the GenAI tech stack, prompt engineering, agent frameworks and RAG.
 
 Each concept is written the same way, so it is easy to revise:
 
