@@ -52,13 +52,13 @@ flowchart LR
 |---|---|---|---|
 | 04 | [Prompt Engineering](04-prompt-engineering/README.md) | Prompt anatomy, context window, zero/one/few-shot, prompt debugging, structured reasoning | ✅ |
 | 05 | LLM APIs and Tool Calling | Calling models from Python, API keys and `.env`, function calling, structured JSON output | 🔜 |
-| 06 | [RAG](06-rag/README.md) | Loading, chunking, embeddings, vector databases, retrieval, grounding, RAG vs fine-tuning | 📘 |
+| 06 | [RAG](06-rag/README.md) | Loading, chunking, embeddings, vector databases, retrieval, grounding, query vs prompt, LCEL, RAG vs fine-tuning, **RAG evaluation** (Precision@k, Recall@k, MRR, faithfulness, Ragas), demos | 📘 |
 
 ### Stage 3 · Building Agents
 | # | Topic | What's inside | Status |
 |---|---|---|---|
 | 07 | [Agent Frameworks](07-agent-frameworks/README.md) | LangChain, LangGraph, CrewAI, AutoGen, Agno: what each is and when to use it | 📘 |
-| 08 | Multi-Agent Systems | Roles, orchestration patterns, serial vs parallel, memory and state, agentic RAG, A2A | 🔜 |
+| 08 | [Multi-Agent Systems](08-multi-agent-systems/README.md) | Part I: agentic RAG, decision loop with retry limit, controller vs tool calling, agent harness, single vs multi-agent, supervisor pattern, AutoGPT, research pattern, runnable demos · Part II next | 📘 |
 | 09 | Workflow Automation | n8n workflows with AI agents, triggers, integrations, human-in-the-loop flows | 🔜 |
 | 10 | Model Context Protocol (MCP) | MCP servers and clients, tool schemas, secure tool hosting, connecting agents to tools | 🔜 |
 
@@ -86,6 +86,8 @@ flowchart LR
 |---|---|---|
 | Analyzing Customer Orders | Python data analysis of customer orders and buying patterns | _(add repo link)_ |
 | Text-Based Adventure Game | Python logic (variables, lists, loops, conditions, functions), built with GitHub Copilot | _(add repo link)_ |
+
+Learning demos: RAG evaluation in [06 · demos](06-rag/demos/README.md), agentic RAG, tool calling and a supervisor team in [08 · demos](08-multi-agent-systems/demos/README.md).
 
 Coming next: a RAG assistant, multi-agent systems and an end-to-end agent project.
 
