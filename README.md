@@ -58,7 +58,7 @@ flowchart LR
 | # | Topic | What's inside | Status |
 |---|---|---|---|
 | 07 | [Agent Frameworks](07-agent-frameworks/README.md) | LangChain, LangGraph, CrewAI, AutoGen, Agno: what each is and when to use it. Deep dives with demos: [LangChain](07-agent-frameworks/langchain.md), [LangGraph](07-agent-frameworks/langgraph.md), [CrewAI](07-agent-frameworks/crewai.md) | 📘 |
-| 08 | [Multi-Agent Systems](08-multi-agent-systems/README.md) | Part I: agentic RAG, decision loop with retry limit, controller vs tool calling, agent harness, single vs multi-agent, supervisor pattern, AutoGPT, research pattern, runnable demos · Part II next | 📘 |
+| 08 | [Multi-Agent Systems](08-multi-agent-systems/README.md) | Part I: agentic RAG, decision loop with retry limit, controller vs tool calling, agent harness, single vs multi-agent, supervisor pattern, AutoGPT, research pattern, runnable demos. Deep dive: [A2A protocol](08-multi-agent-systems/a2a.md) · Part II next | 📘 |
 | 09 | Workflow Automation | n8n workflows with AI agents, triggers, integrations, human-in-the-loop flows | 🔜 |
 | 10 | Model Context Protocol (MCP) | MCP servers and clients, tool schemas, secure tool hosting, connecting agents to tools | 🔜 |
 
@@ -99,5 +99,7 @@ Coming next: a RAG assistant, multi-agent systems and an end-to-end agent projec
 - Found a mistake? Feel free to open an issue.
 
 ---
+
+**License:** notes and images are shared under [CC BY 4.0](LICENSE). You can reuse them with credit.
 
 **Author:** D. Charan Baba Reddy · _(add LinkedIn link)_

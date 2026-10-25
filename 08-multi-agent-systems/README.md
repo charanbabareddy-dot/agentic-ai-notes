@@ -6,6 +6,8 @@ How a system grows from **one search and one answer** into **agents that decide,
 
 > **Status:** 📘 Part I: concepts and three runnable demos · Part II coming next.
 
+👉 **Deep dive:** [A2A: Agent to Agent protocol](a2a.md), how independent agents discover each other, send tasks and return results.
+
 [← Back to all topics](../README.md)
 
 ## Contents
@@ -552,8 +554,6 @@ flowchart TD
 
 **Example**
 "Should our startup build on AWS, Azure or Google Cloud?" Subagents research pricing, AI services and free startup credits in parallel. An evidence reviewer flags unsupported claims. The lead agent writes the comparison with sources and marks what is uncertain.
-
-Anthropic has [publicly described](https://www.anthropic.com/engineering/multi-agent-research-system) using this pattern for its research feature. Its write-up reports that the pattern helps on broad research questions, and also that multi-agent runs used about 15 times more tokens than a normal chat.
 
 **Where it's used**
 Deep research tools, market and competitor analysis, literature reviews.
