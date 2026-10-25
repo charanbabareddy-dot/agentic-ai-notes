@@ -4,7 +4,7 @@
 
 The main Python frameworks for building AI agents: what each one is, how it thinks about a problem, and when to choose it.
 
-> **Status:** 📘 Concepts learned · hands-on projects next. Code examples here are short illustrations of each framework's style; framework APIs change often, so always check the official docs for the current version.
+> **Status:** 📘 Concepts learned · **deep dives and runnable demos added** for LangChain, LangGraph and CrewAI. Code examples here are short illustrations of each framework's style; framework APIs change often, so always check the official docs for the current version.
 
 [← Back to all topics](../README.md)
 
@@ -16,6 +16,13 @@ The main Python frameworks for building AI agents: what each one is, how it thin
 5. [AutoGen](#5-autogen)
 6. [Agno](#6-agno)
 7. [Choosing a framework](#7-choosing-a-framework)
+
+**Deep dives (full notes, diagrams and interview questions):**
+| Page | Covers | Demo |
+|---|---|---|
+| [LangChain](langchain.md) | Models, messages, prompt templates, LCEL, structured output, tools, tool calling vs agents, `create_agent`, memory, RAG pieces, LangSmith | [`langchain_basics.py`](demos/langchain_basics.py) |
+| [LangGraph](langgraph.md) | State, nodes, edges, conditional routing, reducers, parallel nodes, cycles, tool agent graph, checkpoints, human in the loop, retries, guardrails, subgraphs, A2A | [`langgraph_basics.py`](demos/langgraph_basics.py) (free), [`langgraph_tool_agent.py`](demos/langgraph_tool_agent.py) |
+| [CrewAI](crewai.md) | Flows vs crews, agents, tasks, kickoff and results, sequential vs hierarchical, tools, parallel tasks, context vs memory vs knowledge, guardrails, evaluation | [`crewai_team.py`](demos/crewai_team.py) |
 
 **One example used throughout:** a skincare brand wants AI to research a trend, write a LinkedIn post, and check it before publishing.
 
@@ -103,6 +110,8 @@ Following old tutorials: LangChain's API has changed a lot between versions.
 **In one line**
 LangChain = the toolkit that connects an LLM to tools and data.
 
+👉 [LangChain deep dive](langchain.md)
+
 ---
 
 ## 3. LangGraph
@@ -150,6 +159,8 @@ Using LangGraph for a simple one-step task: it adds structure you don't need.
 
 **In one line**
 LangGraph = an agent drawn as a flowchart with loops and memory.
+
+👉 [LangGraph deep dive](langgraph.md)
 
 ---
 
@@ -199,6 +210,8 @@ Too many agents. Every extra agent adds cost, time and failure points. Start wit
 
 **In one line**
 CrewAI = a team of agents with job titles, each doing its part.
+
+👉 [CrewAI deep dive](crewai.md)
 
 ---
 
