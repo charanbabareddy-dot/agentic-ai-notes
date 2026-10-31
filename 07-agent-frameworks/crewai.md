@@ -622,4 +622,4 @@ CrewAI for teams of roles, LangGraph for precise control, and a checklist before
 
 **Practice design:** design a three-agent crew for a college library helpdesk (book search, renewal rules, complaint routing). Define each agent's role and goal, the tasks and expected outputs, the tools and permissions, the process, and a human review step for anything the agents can't answer.
 
-[← LangGraph deep dive](langgraph.md) · [Back to Agent Frameworks](README.md)
+[← LangGraph deep dive](langgraph.md) · [Next: AutoGen deep dive →](autogen.md) · [Back to Agent Frameworks](README.md)

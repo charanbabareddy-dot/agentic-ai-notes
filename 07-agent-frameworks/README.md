@@ -4,7 +4,7 @@
 
 The main Python frameworks for building AI agents: what each one is, how it thinks about a problem, and when to choose it.
 
-> **Status:** 📘 Concepts learned · **deep dives and runnable demos added** for LangChain, LangGraph and CrewAI. Code examples here are short illustrations of each framework's style; framework APIs change often, so always check the official docs for the current version.
+> **Status:** 📘 Concepts learned · **deep dives added** for LangChain, LangGraph, CrewAI and AutoGen, with runnable demos for the first three. Code examples here are short illustrations of each framework's style; framework APIs change often, so always check the official docs for the current version.
 
 [← Back to all topics](../README.md)
 
@@ -23,6 +23,7 @@ The main Python frameworks for building AI agents: what each one is, how it thin
 | [LangChain](langchain.md) | Models, messages, prompt templates, LCEL, structured output, tools, tool calling vs agents, `create_agent`, memory, RAG pieces, LangSmith | [`langchain_basics.py`](demos/langchain_basics.py) |
 | [LangGraph](langgraph.md) | State, nodes, edges, conditional routing, reducers, parallel nodes, cycles, tool agent graph, checkpoints, human in the loop, retries, guardrails, subgraphs, A2A | [`langgraph_basics.py`](demos/langgraph_basics.py) (free), [`langgraph_tool_agent.py`](demos/langgraph_tool_agent.py) |
 | [CrewAI](crewai.md) | Flows vs crews, agents, tasks, kickoff and results, sequential vs hierarchical, tools, parallel tasks, context vs memory vs knowledge, guardrails, evaluation | [`crewai_team.py`](demos/crewai_team.py) |
+| [AutoGen](autogen.md) | Model client vs agent, AssistantAgent, tools and reflection, structured output, round robin, termination conditions, selector, swarm and handoffs, GraphFlow, human in the loop, code execution, memory and state, streaming and tokens, migration to Microsoft Agent Framework | Concepts only |
 
 **One example used throughout:** a skincare brand wants AI to research a trend, write a LinkedIn post, and check it before publishing.
 
@@ -264,6 +265,8 @@ No termination condition: agents can chat forever and burn tokens.
 
 **In one line**
 AutoGen = agents solving a task by talking to each other.
+
+👉 [AutoGen deep dive](autogen.md)
 
 ---
 

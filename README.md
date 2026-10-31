@@ -57,7 +57,7 @@ flowchart LR
 ### Stage 3 · Building Agents
 | # | Topic | What's inside | Status |
 |---|---|---|---|
-| 07 | [Agent Frameworks](07-agent-frameworks/README.md) | LangChain, LangGraph, CrewAI, AutoGen, Agno: what each is and when to use it. Deep dives with demos: [LangChain](07-agent-frameworks/langchain.md), [LangGraph](07-agent-frameworks/langgraph.md), [CrewAI](07-agent-frameworks/crewai.md) | 📘 |
+| 07 | [Agent Frameworks](07-agent-frameworks/README.md) | LangChain, LangGraph, CrewAI, AutoGen, Agno: what each is and when to use it. Deep dives with demos: [LangChain](07-agent-frameworks/langchain.md), [LangGraph](07-agent-frameworks/langgraph.md), [CrewAI](07-agent-frameworks/crewai.md), [AutoGen](07-agent-frameworks/autogen.md) | 📘 |
 | 08 | [Multi-Agent Systems](08-multi-agent-systems/README.md) | Part I: agentic RAG, decision loop with retry limit, controller vs tool calling, agent harness, single vs multi-agent, supervisor pattern, AutoGPT, research pattern, runnable demos. Deep dive: [A2A protocol](08-multi-agent-systems/a2a.md) · Part II next | 📘 |
 | 09 | Workflow Automation | n8n workflows with AI agents, triggers, integrations, human-in-the-loop flows | 🔜 |
 | 10 | Model Context Protocol (MCP) | MCP servers and clients, tool schemas, secure tool hosting, connecting agents to tools | 🔜 |
